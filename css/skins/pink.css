@@ -26,6 +26,9 @@ button{
 button:hover{
     color:#ec1839;
 }
+.section-heading h1 i:hover{
+    color: #ec1839;
+}
 .edu-exp-details{
     border-left: 5px solid #ec1839;
 }

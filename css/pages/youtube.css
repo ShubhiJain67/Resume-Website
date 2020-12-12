@@ -23,7 +23,7 @@
 }
 .video-wrapper .video-card .video-description{
     padding: 20px;
-    font-size:16px;
+    font-size:15px;
 }
 .video-wrapper .video-card .video-description h3{
     font-size:22px;
@@ -34,6 +34,7 @@
     border-bottom: 1px solid #e8dfec;
 }
 .video-wrapper .video-card .video-description ul{
+    margin-top:10px;
     list-style: none;
 }
 .video-wrapper .video-card .video-description ul li .time{

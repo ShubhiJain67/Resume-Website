@@ -55,6 +55,10 @@ body{
     font-family: 'Rubik',sans-serif;
     font-weight: 700;
 }
+.section-heading h1 i{
+    font-size: 20px;
+    cursor: pointer;
+}
 .long-line{
     height: 5px;
     width: 50px;
@@ -83,7 +87,10 @@ body{
         padding: 10px;
     }
 }
-
+.buttons{
+    display: flex;
+    flex-direction:row ;
+}
 button{
     padding: 15px 30px;
     border-radius: 35px;
@@ -92,6 +99,9 @@ button{
     color: #ffffff;
     font-size: 16px;
     border: none;
+}
+button{
+    color: #ffffff;
 }
 button:hover{
     background-color: transparent;
