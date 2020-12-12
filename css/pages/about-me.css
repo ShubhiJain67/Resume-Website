@@ -5,34 +5,8 @@
     display: none;
 }
 
-.about-me{
-    height: 100%;
-    padding: 30px 40px 30px 30px;
-    text-decoration: none;
-}
-
 /*--------------------------------------- Basic Info --------------------------------------*/
 
-.about-me .section-heading{
-    margin-bottom: 40px;
-}
-.about-me .section-heading h1{
-    /* background-color: #e8dfec; */
-    font-size: 40px;
-    color: #302e4d;
-    font-family: 'Rubik',sans-serif;
-    font-weight: 700;
-}
-.about-me .section-heading .long-line{
-    height: 5px;
-    width: 50px;
-    margin-bottom: 5px;
-}
-.about-me .section-heading .short-line{
-    height: 5px;
-    width: 30px;
-    margin-bottom: 5px;
-}
 .about-me .basic-intro{
     margin-bottom: 40px;
 }

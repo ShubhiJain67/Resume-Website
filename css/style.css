@@ -120,3 +120,31 @@ body{
     -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15) ;
     box-shadow: 0 0 20px rgba(48,46,77,0.15) ;
 }
+
+
+.section-heading{
+    margin-bottom: 40px;
+}
+.section-heading h1{
+    /* background-color: #e8dfec; */
+    font-size: 40px;
+    color: #302e4d;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 700;
+}
+.long-line{
+    height: 5px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.short-line{
+    height: 5px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.page{
+    height: 100%;
+    padding: 30px 40px 30px 30px;
+    text-decoration: none;
+}

@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/pages/home.css" type="text/css">
   <link rel="stylesheet" href="css/pages/about-me.css" type="text/css">
+  <link rel="stylesheet" href="css/pages/achievements.css" type="text/css">
+  <link rel="stylesheet" href="css/pages/projects.css" type="text/css">
+  <link rel="stylesheet" href="css/pages/youtube.css" type="text/css">
+  <link rel="stylesheet" href="css/pages/contact-me.css" type="text/css">
+
+
   <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
 </head>
 
@@ -23,9 +29,9 @@
       <ul class="nav">
         <li><a id="home-link" href="#home-page" class="active" onclick="getPage(this.id)"><i class="fa fa-home"></i>Home</a></li>
         <li><a id="about-link" href="#about-page" onclick="getPage(this.id)"><i class="fa fa-user"></i>About</a></li>
-        <li><a id="service-link" href="#service-page" onclick="getPage(this.id)"><i class="fa fa-list"></i>Services</a></li>
-        <li><a id="portfolio-link" href="#portfolio-page" onclick="getPage(this.id)"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-        <li><a id="blog-link" href="#blog-page" onclick="getPage(this.id)"><i class="fa fa-envelope"></i>Blog</a></li>
+        <li><a id="projects-link" href="#projects-page" onclick="getPage(this.id)"><i class="fa fa-briefcase"></i>Projects</a></li>
+        <li><a id="youtube-link" href="#youtube-page" onclick="getPage(this.id)"><i class="fa fa-envelope"></i>YouTube</a></li>
+        <li><a id="achievement-link" href="#achievement-page" onclick="getPage(this.id)"><i class="fa fa-list"></i>Achievements</a></li>
         <li><a id="contact-link" href="#contact-page" onclick="getPage(this.id)"><i class="fa fa-comments"></i>Contact</a></li>
       </ul>
       <div class="copyright-text">
@@ -52,7 +58,7 @@
         </div>
       </section>
       <!-- --------------------------------- ABOUT ME PAGE --------------------------------------- -->
-      <section id="about-page" class="about-me">
+      <section id="about-page" class="about-me page">
         <div class="container">
           <div class="section-heading">
             <h1>About Me</h1>
@@ -146,14 +152,90 @@
           </div>
         </div>
       </section>
-      <!-- --------------------------------- SERVICES PAGE --------------------------------------- -->
-      <section id="service-page"></section>
-      <!-- --------------------------------- PORFOLIO PAGE --------------------------------------- -->
-      <section id="portfolio-page"></section>
-      <!-- --------------------------------- BLOG PAGE --------------------------------------- -->
-      <section id="blog-page"></section>
+      <!-- --------------------------------- PROJECTS PAGE --------------------------------------- -->
+      <section id="projects-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>My Projects</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------- YouTube PAGE --------------------------------------- -->
+      <section id="youtube-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>My YouTube Channel</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+          <div class="youtube-description">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ex cupiditate blanditiis voluptatum tempora veritatis hic nobis, placeat veniam labore pariatur neque voluptatibus repellendus, eligendi excepturi illum quaerat architecto. Deleniti.</p>
+          </div>
+          <div class="video-wrapper">
+            <div class="video-card shadow-dark">
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/HjoA15ocpT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-description">
+                <h3>Merging 2 arrays without extra space</h3>
+                <p>In this video you will learn how to Merge 2 Sorted Arrays without using any extra space using 2 approaches.</p>
+                <ul>
+                  <li><span class="time">1:34</span> : <span class="approach">Approach 1 </span>(Direct) : TC O(n*m)</li>
+                  <li><span class="time">7:00</span> : <span class="approach">Approach 2 </span>(Efficient) : TC O((n+m)log(n+m))</li>
+                </ul>
+              </div>
+            </div>
+            <div class="video-card shadow-dark">
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/HjoA15ocpT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-description">
+                <h3>Merging 2 arrays without extra space</h3>
+                <p>In this video you will learn how to Merge 2 Sorted Arrays without using any extra space using 2 approaches.</p>
+                <ul>
+                  <li><span class="time">1:34</span> : <span class="approach">Approach 1 </span>(Direct) : TC O(n*m)</li>
+                  <li><span class="time">7:00</span> : <span class="approach">Approach 2 </span>(Efficient) : TC O((n+m)log(n+m))</li>
+                </ul>
+              </div>
+            </div>
+            <div class="video-card shadow-dark">
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/HjoA15ocpT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-description">
+                <h3>Merging 2 arrays without extra space</h3>
+                <p>In this video you will learn how to Merge 2 Sorted Arrays without using any extra space using 2 approaches.</p>
+                <ul>
+                  <li><span class="time">1:34</span> : <span class="approach">Approach 1 </span>(Direct) : TC O(n*m)</li>
+                  <li><span class="time">7:00</span> : <span class="approach">Approach 2 </span>(Efficient) : TC O((n+m)log(n+m))</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------- ACHIEVEMENTS PAGE --------------------------------------- -->
+      <section id="achievement-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>My Achievements</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+        </div>
+      </section>
       <!-- --------------------------------- CONTACT PAGE --------------------------------------- -->
-      <section id="contact-page"></section>
+      <section id="contact-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Contact Me</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+        </div>
+      </section>
   </div>
   </div>
 

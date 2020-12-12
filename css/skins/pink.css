@@ -13,8 +13,7 @@
 .home .intro .social-links *{
     background-color: #ec1839;
 }
-.about-me .section-heading .long-line,
-.about-me .section-heading .short-line{
+.long-line,.short-line{
     background-color: #ec1839;
 }
 .about-me .basic-intro h3 span{
@@ -31,5 +30,8 @@
     border-left: 5px solid #ec1839;
 }
 .edu-exp-details i{
+    color: #ec1839;
+}
+.video-wrapper .video-card .video-description ul li .time{
     color: #ec1839;
 }
