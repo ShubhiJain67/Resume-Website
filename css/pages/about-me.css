@@ -1,0 +1,160 @@
+/*-----------------------------------------------------------------------------------------*/
+/*                                        ABOUT ME                                         */
+/*-----------------------------------------------------------------------------------------*/
+#about-page{
+    display: none;
+}
+
+.about-me{
+    height: 100%;
+    padding: 30px 40px 30px 30px;
+    text-decoration: none;
+}
+
+/*--------------------------------------- Basic Info --------------------------------------*/
+
+.about-me .section-heading{
+    margin-bottom: 40px;
+}
+.about-me .section-heading h1{
+    /* background-color: #e8dfec; */
+    font-size: 40px;
+    color: #302e4d;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 700;
+}
+.about-me .section-heading .long-line{
+    height: 5px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+.about-me .section-heading .short-line{
+    height: 5px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+.about-me .basic-intro{
+    margin-bottom: 40px;
+}
+.about-me .basic-intro h3{
+    font-size: 25px;
+    color:#302e4d;
+    margin-bottom: 15px;
+}
+.about-me .basic-intro p{
+    color:#7d7d7d;
+}
+
+/*-------------------------------------- Info Wrapper -----------------------------------------*/
+
+.about-me .info-wrapper{
+    display:flex;
+    flex-direction: row;
+}
+
+/*--------------------------------- Left Section ------------------------------------*/
+
+.about-me .info-wrapper .left-section{
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+.about-me .info-wrapper .left-section .personal-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.about-me .info-wrapper .left-section .personal-wrapper .personal-info{
+    margin-right:25px;
+}
+.about-me .info-wrapper .left-section .personal-wrapper .personal-info p{
+    font-size: 16px;
+    color:#302e4d;
+    font-weight: 700;
+    width: 270px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #e8dfec;
+    margin:10px 0px 10px 0px;
+    margin-right:0px
+}
+.about-me .info-wrapper .left-section .personal-wrapper .personal-info p span{
+    color:#7d7d7d;
+    font-weight: 300;
+}
+.about-me .info-wrapper .left-section button{
+    padding: 15px 30px;
+    border-radius: 35px;
+    margin: 20px 10px 0px 0px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+}
+.about-me .info-wrapper .left-section button:hover{
+    background-color: transparent;
+}
+
+/*--------------------------------- Right Section ------------------------------------*/
+
+.about-me .info-wrapper .right-section{
+    width: 100%;
+    margin: 0px 20px 20px 0px;
+}
+.about-me .info-wrapper .right-section .skills-wrapper{
+    font-size: 16px;
+    color:#302e4d;
+    font-weight: 700;
+    display: block;
+}
+.about-me .info-wrapper .right-section .skills-wrapper p{
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 7px solid #e8dfec;
+    margin-bottom: 30px;
+}
+.about-me .info-wrapper .right-section .skills-wrapper p span{
+    color: #7d7d7d;
+    font-size: 16px;
+    float: right;
+}
+
+
+
+@media screen and (max-width: 1156px) {
+    .about-me .info-wrapper {
+        display: block;
+     }
+    .about-me .info-wrapper .left-section{
+        padding-right: 0px;
+    }
+     .about-me .info-wrapper .right-section{
+        padding-right:20px;
+    }
+    .about-me .info-wrapper .left-section .personal-wrapper .personal-info{
+        width:50%;
+    }
+    .about-me .info-wrapper .left-section .personal-wrapper .personal-info p{
+        width: 350px;
+    }
+}
+
+/*---------------------------------- Eduction Experience ----------------------------------*/
+
+.edu-exp-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.edu-exp-inner{
+    background-color: #fdf9ff;
+    margin: 20px 40px 0px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.edu-exp-details{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.edu-exp-details *{
+    margin-bottom: 5px;
+}

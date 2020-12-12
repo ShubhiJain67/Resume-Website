@@ -1,0 +1,56 @@
+/*-----------------------------------------------------------------------------------------*/
+/*                                          HOME                                           */
+/*-----------------------------------------------------------------------------------------*/
+
+
+.home{
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+}
+.home .intro{
+    text-align: center;
+}
+.home .intro img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 8px solid white;
+    margin-bottom: 20px;
+
+}
+.home .intro h1{
+    font-size: 30px;
+    color: #302e4d;
+    font-family: 'Rubik',sans-serif;font-weight: 700;
+    font-weight: 700;
+    margin: 20px 0px 5px;
+}
+.home .intro p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    line-height: 22px;
+    color: #504e70;
+}
+.home .intro .social-links{
+    margin-top: 25px;
+}
+.home .intro .social-links *{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #ffffff;
+    margin:2px;
+    text-decoration: none;
+    -webkit-transform: all 0.3s ease;
+    transform: all 0.3s ease;
+}
+.home .intro .social-links *:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
