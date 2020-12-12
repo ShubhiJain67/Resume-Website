@@ -19,11 +19,11 @@
 .about-me .basic-intro h3 span{
     color: #ec1839;
 }
-.about-me .info-wrapper .left-section button{
+button{
     border:2px solid #ec1839;
     background-color: #ec1839;
 }
-.about-me .info-wrapper .left-section button:hover{
+button:hover{
     color:#ec1839;
 }
 .edu-exp-details{
@@ -33,5 +33,8 @@
     color: #ec1839;
 }
 .video-wrapper .video-card .video-description ul li .time{
+    color: #ec1839;
+}
+.contact-icons-wrapper .contact-icons i{
     color: #ec1839;
 }

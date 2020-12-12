@@ -26,9 +26,12 @@
     font-size:16px;
 }
 .video-wrapper .video-card .video-description h3{
-    font-size:20px;
+    font-size:22px;
     font-weight: 1000;
     color:#302e4d;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    border-bottom: 1px solid #e8dfec;
 }
 .video-wrapper .video-card .video-description ul{
     list-style: none;

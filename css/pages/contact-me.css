@@ -1,0 +1,36 @@
+#contact-page{
+    display: none;
+}
+.contact-icons-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.contact-icons-wrapper .contact-icons{
+    text-align:center;
+    width:33%;
+}
+.contact-icons-wrapper .contact-icons i{
+    font-size: 40px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.form{
+    margin-top: 10px;
+    line-height: 1.6px;
+}
+.form form input{
+    height:40px;
+}
+.form form *{
+    padding: 15px;
+    border-radius: 20px;
+    border:1px solid #e8dfec;
+    background-color: #fdf9ff;
+    margin-bottom: 20px;
+}
+.form .half-inp{
+    width:49%;
+}
+.form .full-inp{
+    width:100%;
+}
