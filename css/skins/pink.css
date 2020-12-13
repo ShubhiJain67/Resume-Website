@@ -1,3 +1,6 @@
+.header{
+    background-color: #ec1839;
+}
 .aside .logo a::before{
     border-top:4px solid #ec1839;
     border-left:4px solid #ec1839;
@@ -35,9 +38,20 @@ button:hover{
 .edu-exp-details i{
     color: #ec1839;
 }
+.skill1,.skill2,.skill3,.skill4{
+    background-color: #ec1839;
+}
 .video-wrapper .video-card .video-description ul li .time{
     color: #ec1839;
 }
 .contact-icons-wrapper .contact-icons i{
+    color: #ec1839;
+}
+
+.proj-nav ul .active{
+    color: #ec1839;
+    border-bottom: 2px solid #ec1839 !important;
+}
+.projects-wrapper .proj-nav ul li:not(.active):hover{
     color: #ec1839;
 }

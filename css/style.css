@@ -74,12 +74,16 @@ body{
     height: 100%;
     padding: 20px 30px 10px 30px;
     text-decoration: none;
+    transition: display 0.5s;
 }
 
 @media screen and (max-width: 950px) {
+    /* .header{
+        display: block;
+    }
     .aside{
         display: none;
-    }
+    } */
     .main-content{
         padding-left: 0px;
     }
@@ -99,6 +103,7 @@ button{
     color: #ffffff;
     font-size: 16px;
     border: none;
+    transition: background-color 0.5s;
 }
 button{
     color: #ffffff;

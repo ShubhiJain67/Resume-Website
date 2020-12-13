@@ -16,6 +16,11 @@
     cursor: pointer;
     display: flex;
     flex-direction:row;
+    transition: box-shadow 0.5s;
+}
+.video-wrapper .video-card:hover{
+    -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.50) ;
+    box-shadow: 0 0 20px rgba(48,46,77,0.50) ;
 }
 .video-wrapper .video-card .video iframe{
     width: 360px;

@@ -65,14 +65,12 @@
     font-size: 16px;
     color:#302e4d;
     font-weight: 700;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .about-me .info-wrapper .right-section .skills-wrapper p{
     float: left;
     width: 100%;
-    padding-bottom: 10px;
-    border-bottom: 7px solid #e8dfec;
-    margin-bottom: 30px;
 }
 .about-me .info-wrapper .right-section .skills-wrapper p span{
     color: #7d7d7d;
@@ -81,6 +79,25 @@
 }
 
 
+.about-me .info-wrapper .right-section .skills-wrapper .skill-container{
+    margin: 40px 0px 10px 0px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.skill-progress {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+.skill1 {width: 76%;}
+.skill2 {width: 90%;}
+.skill3 {width: 80%;}
+.skill4 {width: 60%;}
 
 @media screen and (max-width: 1156px) {
     .about-me .info-wrapper {
@@ -109,12 +126,18 @@
 }
 .edu-exp{
     width: 50%;
+    cursor: pointer;
 }
 .edu-exp-inner{
     background-color: #fdf9ff;
     margin: 20px 40px 0px 0px;
     padding: 20px;
     border-radius: 10px;
+    transition: box-shadow 0.5s;
+}
+.edu-exp-inner:hover{
+    -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.50) ;
+    box-shadow: 0 0 20px rgba(48,46,77,0.50) ;
 }
 .edu-exp-details{
     padding-left: 20px;

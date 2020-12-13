@@ -1,3 +1,42 @@
 #achievement-page{
     display: none;
 }
+.achievements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  padding:30px 0px;
+}
+.achievements .achievement{
+    background-color: #fdf9ff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 319px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: box-shadow 0.5s;
+    overflow: hidden;
+    transition: transform .2s;
+}
+.achievements .achievement:hover{
+    -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.50) ;
+    box-shadow: 0 0 20px rgba(48,46,77,0.75) ;
+    transform: scale(1.1);
+}
+.achievements .achievement img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+}
+.achievements .achievement img:hover{
+}
+.achievements .achievement .achievement-desc{
+    padding: 15px;
+}

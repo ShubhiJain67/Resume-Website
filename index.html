@@ -6,7 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/pages/side-nav.css" type="text/css">
   <link rel="stylesheet" href="css/pages/home.css" type="text/css">
   <link rel="stylesheet" href="css/pages/about-me.css" type="text/css">
@@ -14,6 +13,7 @@
   <link rel="stylesheet" href="css/pages/projects.css" type="text/css">
   <link rel="stylesheet" href="css/pages/youtube.css" type="text/css">
   <link rel="stylesheet" href="css/pages/contact-me.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 
 
   <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
@@ -21,6 +21,10 @@
 
 <body>
   <div class="main-container">
+    <!-- --------------------------------- Header Navigation ----------------------------------- -->
+    <!-- <div class="header">
+      <i class="fa fa-bars" onclick="SideNav()"></i>
+    </div> -->
     <!-- ---------------------------------Side Navigation--------------------------------------- -->
     <div class="aside">
       <div class="logo">
@@ -49,242 +53,330 @@
       <!-- ------------------------------------ HOME PAGE --------------------------------------- -->
       <section id="home-page" class="home section"">
         <div class=" container">
-        <div class="intro">
-          <img src="./images/profile.jpg" alt="profile" class="shadow-dark" />
-          <h1>Shubhi Jain</h1>
-          <p>I'm a Software Developer Engineer</p>
-          <div class="social-links">
-            <a href=""><i class="fa fa-github"></i></a>
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-youtube"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
-          </div>
-        </div>
-    </div>
-    </section>
-    <!-- --------------------------------- ABOUT ME PAGE --------------------------------------- -->
-    <section id="about-page" class="about-me page">
-      <div class="container">
-        <div class="section-heading">
-          <h1>About Me</h1>
-          <div class="long-line"></div>
-          <div class="short-line"></div>
-        </div>
-        <div class="basic-intro">
-          <h3>I'm Shubhi Jain and a <span>Software Developer Engineer</span></h3>
-          <p>Hi! My name is Shubhi Jain. I am a Web Developer, and I'm very passionate and dedicated
-            to my work. With 10 years experience as a professional Web developer, I have acquired the skills and
-            knowledge necessary to make your project a success. I enjoy every step of the design process, from
-            discussion and collaboration.</p>
-        </div>
-        <div class="info-wrapper">
-          <div class="left-section">
-            <div class="personal-wrapper">
-              <div class="personal-info">
-                <p>Birthday&nbsp;&nbsp;:&nbsp;&nbsp;<span>19th Feburary 1999</span></p>
-                <p>Age&nbsp;&nbsp;:&nbsp;&nbsp;<span>21</span></p>
-                <p>Email&nbsp;&nbsp;:&nbsp;&nbsp;<span>jainshubhi67</span></p>
-                <p>YouTube&nbsp;&nbsp;:&nbsp;&nbsp;<span>Shubhi Jain</span></p>
-              </div>
-              <div class="personal-info">
-                <p>Degree&nbsp;&nbsp;:&nbsp;&nbsp;<span>B.Tech</span></p>
-                <p>Phone&nbsp;&nbsp;:&nbsp;&nbsp;<span>+91-7982161837</span></p>
-                <p>City&nbsp;&nbsp;:&nbsp;&nbsp;<span>Dehradun</span></p>
-                <p>Hiring&nbsp;&nbsp;:&nbsp;&nbsp;<span>Avaiable</span></p>
-              </div>
-            </div>
-            <div class="buttons">
-              <form method="get" action="images/Resume.pdf" target="_blank">
-                <button type="submit">Download CV</button>
-              </form>
-              <button onclick="getPage('contact-link')">Hire Me</button>
-            </div>
-          </div>
-          <div class="right-section">
-            <div class="skills-wrapper">
-              <p>Javascript<span>76%</span></p>
-              <p>Wordpress<span>90%</span></p>
-              <p>Java<span>80%</span></p>
-              <p>Bootstrap<span>60%</span></p>
+          <div class="intro">
+            <img src="./images/profile.jpg" alt="profile" class="shadow-dark" />
+            <h1>Shubhi Jain</h1>
+            <p>I'm a Software Developer Engineer</p>
+            <div class="social-links">
+              <a href="https://github.com/ShubhiJain67"><i class="fa fa-github"></i></a>
+              <a href="https://www.facebook.com/smileshubhijain/"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/shubhijain67/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCZyd0TjmFcr2myl10xPjzGg?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+              <a href="https://www.linkedin.com/in/shubhi-jain-12638316a/"><i class="fa fa-linkedin"></i></a>
             </div>
           </div>
         </div>
-        <div class="edu-exp-wrapper">
-          <div class="edu-exp">
-            <h1>Education</h1>
-            <div class="edu-exp-inner shadow-dark">
-              <div class="edu-exp-details">
-                <p><i class="fa fa-calendar"></i> 2016 - 2020</p>
-                <h3>Bachelors In Technology</h3>
-                <p>Completed B.Tech in Computer Science Engineering with an Aggregate: 88.4% CGPA: 9.29</p>
+      </section>
+      <!-- --------------------------------- ABOUT ME PAGE --------------------------------------- -->
+      <section id="about-page" class="about-me page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>About Me</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+          <div class="basic-intro">
+            <h3>I'm Shubhi Jain and a <span>Software Developer Engineer</span></h3>
+            <p>Hi! My name is Shubhi Jain. I am a Web Developer, and I'm very passionate and dedicated
+              to my work. With 10 years experience as a professional Web developer, I have acquired the skills and
+              knowledge necessary to make your project a success. I enjoy every step of the design process, from
+              discussion and collaboration.</p>
+          </div>
+          <div class="info-wrapper">
+            <div class="left-section">
+              <div class="personal-wrapper">
+                <div class="personal-info">
+                  <p>Birthday&nbsp;&nbsp;:&nbsp;&nbsp;<span>19th Feburary 1999</span></p>
+                  <p>Age&nbsp;&nbsp;:&nbsp;&nbsp;<span>21</span></p>
+                  <p>Email&nbsp;&nbsp;:&nbsp;&nbsp;<span>jainshubhi67</span></p>
+                  <p>YouTube&nbsp;&nbsp;:&nbsp;&nbsp;<span>Shubhi Jain</span></p>
+                </div>
+                <div class="personal-info">
+                  <p>Degree&nbsp;&nbsp;:&nbsp;&nbsp;<span>B.Tech</span></p>
+                  <p>Phone&nbsp;&nbsp;:&nbsp;&nbsp;<span>+91-7982161837</span></p>
+                  <p>City&nbsp;&nbsp;:&nbsp;&nbsp;<span>Dehradun</span></p>
+                  <p>Hiring&nbsp;&nbsp;:&nbsp;&nbsp;<span>Avaiable</span></p>
+                </div>
               </div>
-              <div class="edu-exp-details">
-                <p><i class="fa fa-calendar"></i> 2015 - 2016</p>
-                <h3>Summer Valley School</h3>
-                <p>Completed 12th with 94.75%</p>
+              <div class="buttons">
+                <form method="get" action="images/Resume.pdf" target="_blank">
+                  <button type="submit">Download CV</button>
+                </form>
+                <button onclick="getPage('contact-link')">Hire Me</button>
               </div>
-              <div class="edu-exp-details">
-                <p><i class="fa fa-calendar"></i> 2013 - 2014</p>
-                <h3>Summer Valley School</h3>
-                <p>Completed 10th with 90.4%</p>
+            </div>
+            <div class="right-section">
+              <div class="skills-wrapper">
+                <div class="skill">
+                  <p>Javascript<span>76%</span></p>
+                  <div class="skill-container">
+                    <div class="skill-progress skill1"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <p>Wordpress<span>90%</span></p>
+                  <div class="skill-container">
+                    <div class="skill-progress skill2"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <p>Java<span>80%</span></p>
+                  <div class="skill-container">
+                    <div class="skill-progress skill3"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <p>Bootstrap<span>60%</span></p>
+                  <div class="skill-container">
+                    <div class="skill-progress skill4"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="edu-exp">
-            <h1>Experience</h1>
-            <div class="edu-exp-inner shadow-dark">
-              <div class="edu-exp-details">
-                <p><i class="fa fa-calendar"></i> Aug 2020 - Present</p>
-                <h3>Altudo Pvt. Ltd.</h3>
-                <p>Working as a Sitecore Developer Engineer.</p>
+          <div class="edu-exp-wrapper">
+            <div class="edu-exp">
+              <h1>Education</h1>
+              <div class="edu-exp-inner shadow-dark">
+                <div class="edu-exp-details">
+                  <p><i class="fa fa-calendar"></i> 2016 - 2020</p>
+                  <h3>Bachelors In Technology</h3>
+                  <p>Completed B.Tech in Computer Science Engineering with an Aggregate: <b>88.4%</b> CGPA: <b>9.29</b></p>
+                </div>
+                <div class="edu-exp-details">
+                  <p><i class="fa fa-calendar"></i> 2015 - 2016</p>
+                  <h3>Summer Valley School</h3>
+                  <p>Completed 12th with <b>94.75%</b></p>
+                </div>
+                <div class="edu-exp-details">
+                  <p><i class="fa fa-calendar"></i> <b>2013 - 2014</b></p>
+                  <h3>Summer Valley School</h3>
+                  <p>Completed 10th with 90.4%</p>
+                </div>
               </div>
-              <!-- <div class="edu-exp-details">
-                <p><i class="fa fa-calendar"></i> 2011 - 2013</p>
-                <h3>Studied At Delhi University</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
-                  nisi semper, et elementum lorem ornare.</p>
+            </div>
+            <div class="edu-exp">
+              <h1>Experience</h1>
+              <div class="edu-exp-inner shadow-dark">
+                <div class="edu-exp-details">
+                  <p><i class="fa fa-calendar"></i> Aug 2020 - Present</p>
+                  <h3>Altudo Pvt. Ltd.</h3>
+                  <p>Working as a Sitecore Developer Engineer.</p>
+                </div>
+                <!-- <div class="edu-exp-details">
+                  <p><i class="fa fa-calendar"></i> 2011 - 2013</p>
+                  <h3>Studied At Delhi University</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                    nisi semper, et elementum lorem ornare.</p>
 
+                </div>
+                <div class="edu-exp-details">
+                  <p><i class="fa fa-calendar"></i> 2008 - 2011</p>
+                  <h3>Bachelor Degree</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
+                    nisi semper, et elementum lorem ornare.</p>
+                </div> -->
               </div>
-              <div class="edu-exp-details">
-                <p><i class="fa fa-calendar"></i> 2008 - 2011</p>
-                <h3>Bachelor Degree</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non
-                  nisi semper, et elementum lorem ornare.</p>
-              </div> -->
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- --------------------------------- PROJECTS PAGE --------------------------------------- -->
-    <section id="projects-page" class="page">
-      <div class="container">
-        <div class="section-heading">
-          <h1>My Projects</h1>
-          <div class="long-line"></div>
-          <div class="short-line"></div>
-        </div>
-      </div>
-    </section>
-    <!-- --------------------------------- YOUTUBE PAGE --------------------------------------- -->
-    <section id="youtube-page" class="page">
-      <div class="container">
-        <div class="section-heading">
-          <h1>My YouTube Channel <a href="https://www.youtube.com/channel/UCZyd0TjmFcr2myl10xPjzGg?view_as=subscriber"
-              target="_blank"><i class="fa fa-external-link"></i></a></h1>
-          <div class="long-line"></div>
-          <div class="short-line"></div>
-        </div>
-        <div class="youtube-description">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ex cupiditate blanditiis voluptatum tempora
-            veritatis hic nobis, placeat veniam labore pariatur neque voluptatibus repellendus, eligendi excepturi illum
-            quaerat architecto. Deleniti.</p>
-        </div>
-        <div class="video-wrapper">
-          <div class="video-card shadow-dark">
-            <div class="video">
-              <iframe src="https://www.youtube.com/embed/HjoA15ocpT4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-            <div class="video-description">
-              <h3>Merging 2 arrays without extra space</h3>
-              <p>In this video you will learn how to Merge 2 Sorted Arrays without using any extra space using 2
-                approaches.</p>
+      </section>
+      <!-- --------------------------------- PROJECTS PAGE --------------------------------------- -->
+      <section id="projects-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>My Projects</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+          <div class="projects-wrapper">
+            <div class="proj-nav">
               <ul>
-                <li><span class="time">1:34</span> : <span class="approach">Approach 1 </span>(Direct) : TC O(n*m)</li>
-                <li><span class="time">7:00</span> : <span class="approach">Approach 2 </span>(Efficient) : TC
-                  O((n+m)log(n+m))</li>
+                <li id="all-link" class="active" onclick="getProject(this.id)">All</li>
+                <li id="front-link" onclick="getProject(this.id)">FrontEnd</li>
+                <li id="ml-link" onclick="getProject(this.id)">Machine Learning</li>
+                <li id="full-stack-link" onclick="getProject(this.id)">Full Stack</li>
+                <li id="game-link" onclick="getProject(this.id)">Games</li>
               </ul>
             </div>
-          </div>
-          <div class="video-card shadow-dark">
-            <div class="video">
-              <iframe src="https://www.youtube.com/embed/bxw1YURwZmA" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="projects">
+              <div class="project shadow-dark front-proj all-proj">
+                <a href="https://github.com/ShubhiJain67/Calculator" target="_blank">
+                  <img src="images/projects/calculator.PNG" alt="calculator" />
+                </a>
+              </div>
+              <div class="project shadow-dark front-proj all-proj">
+                <a href="https://github.com/ShubhiJain67/NotesApp" target="_blank">
+                <img src="images/projects/notesapp.PNG" alt="notesapp">
+              </a>
+              </div>
+              <div class="project shadow-dark front-proj all-proj">
+                <a href="https://github.com/ShubhiJain67/Quiz-Master" target="_blank">
+                <img src="images/projects/quiz-master.PNG" alt="quiz-master">
+              </a>
+              </div>
+              <div class="project shadow-dark game-proj all-proj">
+                <a href="https://github.com/ShubhiJain67/Snake-Game" target="_blank">
+                <img src="images/projects/snake-game.PNG" alt="snake-game">
+              </a>
+              </div>
+              <div class="project shadow-dark ml-proj all-proj">
+                <a href="https://github.com/ShubhiJain67/FacialExpressionRecognition" target="_blank">
+                <img src="images/projects/facial-expression-recognition.png" alt="facial-expression-recognition">
+              </a>
+              </div>
+              <div class="project shadow-dark ml-proj all-proj">
+                <a href="https://github.com/ShubhiJain67/Car-Speed-Detection" target="_blank">
+                <img src="images/projects/car-speed-detection.jpg" alt="car-speed-detection">
+              </a>
+              </div>
+              <div class="project shadow-dark ml-proj all-proj">
+                <a href="https://github.com/ShubhiJain67/Digit_Recognization" target="_blank">
+                <img src="images/projects/hand-written-digit-recognition.jpg" alt="hand-written-digit-recognition">
+              </a>
+              </div>
             </div>
-            <div class="video-description">
-              <h3>Climbing Staircase Problem</h3>
-              <p>In this video you will learn how to solve the Climbing Staircase problem using 4 approaches with
-                Complexity Analysis:</p>
-              <ul>
-                <li><span class="time">4:33</span> : <span class="approach">Approach 1 </span>Recursive Approach</li>
-                <li><span class="time">10:40</span> : <span class="approach">Approach 2 </span>Recursion with
-                  Memoization</li>
-                <li><span class="time">15:57</span> : <span class="approach">Approach 3 </span>Dynamic Programming</li>
-                <li><span class="time">21:19</span> : <span class="approach">Approach 4 </span>2 Pointer Approach</li>
-              </ul>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------------- YOUTUBE PAGE --------------------------------------- -->
+      <section id="youtube-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>My YouTube Channel <a href="https://www.youtube.com/channel/UCZyd0TjmFcr2myl10xPjzGg?view_as=subscriber"
+                target="_blank"><i class="fa fa-external-link"></i></a></h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+          <div class="youtube-description">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ex cupiditate blanditiis voluptatum tempora
+              veritatis hic nobis, placeat veniam labore pariatur neque voluptatibus repellendus, eligendi excepturi illum
+              quaerat architecto. Deleniti.</p>
+          </div>
+          <div class="video-wrapper">
+            <div class="video-card shadow-dark">
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/HjoA15ocpT4" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="video-description">
+                <h3>Merging 2 arrays without extra space</h3>
+                <p>In this video you will learn how to Merge 2 Sorted Arrays without using any extra space using 2
+                  approaches.</p>
+                <ul>
+                  <li><span class="time">1:34</span> : <span class="approach">Approach 1 </span>(Direct) : TC O(n*m)</li>
+                  <li><span class="time">7:00</span> : <span class="approach">Approach 2 </span>(Efficient) : TC
+                    O((n+m)log(n+m))</li>
+                </ul>
+              </div>
+            </div>
+            <div class="video-card shadow-dark">
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/oxAYBeLG51I" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="video-description">
+                <h3>Comparison of ALL Sorting Algorithms</h3>
+                <p>In this video you will learn how all sorting algorithms differ from one another (Time , Space,
+                  Comparison , Swaps , Size of Array , Online Data , Stability , Almost sorted array, LinkedList ) and in
+                  what all seniors which sorting algorithm should be choose.</p>
+              </div>
+            </div>
+            <div class="video-card shadow-dark">
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/xsyNVReBcuE" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="video-description">
+                <h3>Why Build Heap works in O(n) | Mathematical proof</h3>
+                <p>In this video you will get to see the mathematical proof that why Build Heap method works in O(n).
+                  In order to learn more about heaps.</p>
+                <ul>
+                  <li><span class="time">2:00</span> : <span class="approach">Approach 1 </span>TC O(n^2) SC(1)</li>
+                  <li><span class="time">5:30</span> : <span class="approach">Approach 2 </span>TC O(n) SC(n)</li>
+                  <li><span class="time">11:05</span> : <span class="approach">Approach 3 </span>TC O(n) SC(n)</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="video-card shadow-dark">
-            <div class="video">
-              <iframe src="https://www.youtube.com/embed/-RJhVvL2c5A" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        </div>
+      </section>
+      <!-- --------------------------------- ACHIEVEMENTS PAGE --------------------------------------- -->
+      <section id="achievement-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>My Achievements</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+          <div class="achievements">
+            <div class="achievement shadow-dark">
+              <img src="images/achievements/sih-india.jpg" alt="" />
+              <div class="achievement-desc">
+                <h3>Winner of Smart India Hackathon</h3>
+                <p>Stood 1st in the Smart India Hackathon under the DIPP ministry.Also declared as the overall winners
+                  among the 32 teams present in the campus.</p>
+              </div>
             </div>
-            <div class="video-description">
-              <h3>Smaller elements on left greater on right</h3>
-              <p>In this video you will learn how to find the Elements with smaller Numbers on left and Greater on Right
-                using 3 different Approaches</p>
-              <ul>
-                <li><span class="time">2:00</span> : <span class="approach">Approach 1 </span>TC O(n^2) SC(1)</li>
-                <li><span class="time">5:30</span> : <span class="approach">Approach 2 </span>TC O(n) SC(n)</li>
-                <li><span class="time">11:05</span> : <span class="approach">Approach 3 </span>TC O(n) SC(n)</li>
-              </ul>
+            <div class="achievement shadow-dark">
+              <img src="images/achievements/research-paper.jpg" alt="" />
+              <div class="achievement-desc">
+                <h3>Conference Paper</h3>
+                <p>I got selected to present my Paper on "Detection of Garbage Disposal from a Mobile Vehicle using Image
+                  Processing" for International Conference of Innovative Computing and
+                  Communication organized at University of Ostrava. </p>
+              </div>
+            </div>
+            <div class="achievement shadow-dark">
+              <img src="images/achievements/rank-holder.jpg" alt="" />
+              <div class="achievement-desc">
+                <h3>Rank Holder</h3>
+                <p>Stood 3rd in College and 16th in Universaty for overall 4 years of BTech in Computer Science and Engineering.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- --------------------------------- ACHIEVEMENTS PAGE --------------------------------------- -->
-    <section id="achievement-page" class="page">
-      <div class="container">
-        <div class="section-heading">
-          <h1>My Achievements</h1>
-          <div class="long-line"></div>
-          <div class="short-line"></div>
-        </div>
-      </div>
-    </section>
-    <!-- --------------------------------- CONTACT PAGE --------------------------------------- -->
-    <section id="contact-page" class="page">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Contact Me</h1>
-          <div class="long-line"></div>
-          <div class="short-line"></div>
-        </div>
-        <div class="contact-icons-wrapper">
-          <div class="contact-icons">
-            <i class="fa fa-phone"></i>
-            <p><b>Call Me On</b></p>
-            <p>+91-7982161837</p>
+      </section>
+      <!-- --------------------------------- CONTACT PAGE --------------------------------------- -->
+      <section id="contact-page" class="page">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Contact Me</h1>
+            <div class="long-line"></div>
+            <div class="short-line"></div>
           </div>
-          <div class="contact-icons">
-            <i class="fa fa-map-marker"></i>
-            <p><b>Location</b></p>
-            <p>Dehradun</p>
+          <div class="contact-icons-wrapper">
+            <div class="contact-icons">
+              <i class="fa fa-phone"></i>
+              <p><b>Call Me On</b></p>
+              <p>+91-7982161837</p>
+            </div>
+            <div class="contact-icons">
+              <i class="fa fa-map-marker"></i>
+              <p><b>Location</b></p>
+              <p>Dehradun</p>
+            </div>
+            <div class="contact-icons">
+              <i class="fa fa-envelope"></i>
+              <p><b>Email</b></p>
+              <p>jainshubhi67@gmail.com</p>
+            </div>
           </div>
-          <div class="contact-icons">
-            <i class="fa fa-envelope"></i>
-            <p><b>Email</b></p>
-            <p>jainshubhi67@gmail.com</p>
+          <div class="form">
+            <form action="mailto:jainshubhi67@gmail.com" method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+              <input type="text" class="half-inp" placeholder="Name*" />
+              <input type="text" class="half-inp" placeholder="Email*" style="float: right;" />
+              <input type="text" class="full-inp" placeholder="Subject*" />
+              <textarea class="full-inp" name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </form>
+            <button>Send Message</button>
           </div>
         </div>
-        <div class="form">
-          <form action="mailto:jainshubhi67@gmail.com" method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-            <input type="text" class="half-inp" placeholder="Name*" />
-            <input type="text" class="half-inp" placeholder="Email*" style="float: right;" />
-            <input type="text" class="full-inp" placeholder="Subject*" />
-            <textarea class="full-inp" name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-          </form>
-          <button>Send Message</button>
-        </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
   </div>
 
 

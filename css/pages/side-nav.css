@@ -1,3 +1,15 @@
+/* .header{
+    width: 100%;
+    height: 40px;
+    display: none;
+    z-index: 12;
+}
+.header i{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 5px 0px 0px 20px;
+    cursor: pointer;
+} */
 .aside{
     width: 270px;
     background-color: #fdf9ff ;
